@@ -5,7 +5,7 @@ description = ""
 authors = ["Author Name <author@example.com>"]
 # readme = "README.md"
 # license = "BSD"
-packages = [{ include = "foo" }, { include = "bar", from = "./lib/bar/" }]
+packages = [{ include = "foo" }, { include = "bar", from = "./lib" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -13,4 +13,3 @@ python = "^3.10"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
