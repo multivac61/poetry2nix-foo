@@ -1,4 +1,5 @@
 *.pyc
+*.cpython-311.pyc
 
 # Packages
 /dist/*
